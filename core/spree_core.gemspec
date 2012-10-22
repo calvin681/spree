@@ -19,8 +19,8 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'acts_as_list', '= 0.1.4'
-  s.add_dependency 'awesome_nested_set', '2.1.5'
+  s.add_dependency 'spree_models', version
+  s.add_dependency 'spree_api', version
 
   # This gem dependency is frozen ON PURPOSE to 2.1.4!!
   # This is because 2.2.0 uses jQuery 1.9 which breaks the jquery.horizontalNav
