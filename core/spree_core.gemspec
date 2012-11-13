@@ -40,7 +40,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'deface', '>= 0.9.0'
   s.add_dependency 'stringex', '~> 1.3.2'
   s.add_dependency 'cancan', '1.6.8'
-  s.add_dependency 'money', '5.0.0'
+  s.add_dependency 'money', '5.1.0'
 
   # For checking for alerts
   s.add_dependency 'httparty', '0.9.0'
